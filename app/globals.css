@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: #f4fbfa;
+  --color-panel: #ffffff;
+  --color-text: #173b4a;
+  --color-muted: #4b6b78;
+  --color-primary: #2a8f7e;
+  --color-accent: #5ba6d9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background:
+    radial-gradient(circle at 15% 10%, rgba(91, 166, 217, 0.15), transparent 35%),
+    radial-gradient(circle at 85% 0%, rgba(42, 143, 126, 0.18), transparent 40%),
+    var(--color-surface);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+}
