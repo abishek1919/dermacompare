@@ -27,7 +27,7 @@ export const products: Product[] = [
     concerns: ["acne"],
     price: 349,
     rating: 4.4,
-    product_link: "https://www.nykaa.com/minimalist-2-salicylic-acid-cleanser/p/500000",
+    product_link: "https://amzn.in/d/0fw9NN2O",
     image_url: "https://images.unsplash.com/photo-1556228720-195a672e8a03",
     short_description: "Clarifying cleanser that helps reduce pore congestion."
   },
